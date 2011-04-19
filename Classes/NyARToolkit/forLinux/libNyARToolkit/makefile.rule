@@ -1,0 +1,2 @@
+.cpp.o:
+	$(CC) -O2 -c $(TARGET_INCLUDE) $< -o $(DIR_OBJECT)/$@

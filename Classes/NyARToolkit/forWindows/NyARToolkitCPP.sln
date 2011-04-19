@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NyARToolkitCPP", "NyARToolkitCPP\NyARToolkitCPP.vcproj", "{D41825F6-E7FA-4823-A465-F87E3FB4D12D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NyARToolkitCPP-RawTest", "NyARToolkitCPP-RawTest\NyARToolkitCPP-RawTest.vcproj", "{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D} = {D41825F6-E7FA-4823-A465-F87E3FB4D12D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Debug|Win32.Build.0 = Debug|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Debug|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Release|Win32.ActiveCfg = Release|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Release|Win32.Build.0 = Release|Win32
+		{D41825F6-E7FA-4823-A465-F87E3FB4D12D}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Debug|Win32.Build.0 = Debug|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Debug|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Release|Win32.ActiveCfg = Release|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Release|Win32.Build.0 = Release|Win32
+		{C9AA94AE-C30B-4E32-AAF8-78DFAB2920BC}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
